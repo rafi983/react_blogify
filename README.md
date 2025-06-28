@@ -4,7 +4,65 @@ React Blogify is an API project designed to facilitate learning about integratin
 
 **API Documentation** - [https://documenter.getpostman.com/view/9649334/2sA2rCU2NA](https://documenter.getpostman.com/view/9649334/2sA2rCU2NA)
 
-## Getting started
+---
+
+# React Blogify Frontend
+
+React Blogify Frontend is a modern, responsive web application built with React, Vite, and Tailwind CSS. It provides a user-friendly interface for interacting with the Blogify API, allowing users to read, write, and manage blogs seamlessly.
+
+## Frontend Features
+
+- **User Authentication:** Register, login, and logout securely.
+- **Blog Management:** Create, edit, delete, and view blogs with images.
+- **Profile Management:** Update user profiles and avatars.
+- **Search:** Find blogs by keywords.
+- **Favorites & Likes:** Like and favorite blogs.
+- **Responsive UI:** Built with Tailwind CSS for a modern look on all devices.
+- **Custom Hooks & Context:** Efficient state management using React Context and custom hooks.
+
+## Frontend Tech Stack
+
+- **React** (with hooks and context)
+- **Vite** (for fast development)
+- **Tailwind CSS** (for styling)
+- **Axios** (for API requests)
+- **React Router** (for routing)
+- **React Hook Form** (for forms)
+- **Framer Motion** (for animations)
+
+## Frontend Folder Structure
+
+```
+src/
+  assets/         # Images, fonts, icons
+  components/     # Reusable UI components
+  context/        # React context providers
+  hooks/          # Custom React hooks
+  pages/          # Page components
+  providers/      # Context providers
+  reducer/        # Reducers for state management
+  utils/          # Utility functions
+  index.css       # Global styles
+  main.jsx        # App entry point
+  App.jsx         # Main app component
+```
+
+## Getting Started (Frontend)
+
+1. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+2. **Start the development server:**
+   ```bash
+   npm run dev
+   ```
+3. **Open in browser:**
+   Visit [http://localhost:5173](http://localhost:5173)
+
+---
+
+# Backend API Usage
 
 Install All the packages
 
@@ -1186,7 +1244,7 @@ Upon successfully updating the user profile information, the API returns a succe
 | email      | The email address associated with the user's account.          | String           |
 | firstName  | The updated first name of the user.                            | String           |
 | lastName   | The updated last name of the user.                             | String           |
-| avatar     | The file name of the user's updated avatar image.              | String           |
+| avatar     | The file name of the user's new avatar image.                  | String           |
 | favourites | An array containing details of the user's favorite blog posts. | Array of Objects |
 | bio        | The updated biography or description provided by the user.     | String           |
 
