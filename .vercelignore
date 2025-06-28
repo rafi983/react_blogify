@@ -1,7 +1,0 @@
-api/controller/
-api/lib/
-api/database/
-api/.env
-api/.env.example
-api/.eslintrc.json
-api/.gitignore
